@@ -1,0 +1,102 @@
+body{
+    background-color: #2c4f54;
+  }
+  div.title {
+    display: block;
+    width: 800px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    text-align: center;
+  }
+  div.main {
+    display: block;
+    width:800px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color:black;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+  }
+  .board {
+    display: block;
+    width: 800px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .board td {
+    width: 50px;
+    height: 50px;
+    background-color: #80aba9;
+    text-align: center;
+    cursor: pointer;
+  }
+  .othellobutton {
+    width: 50px;
+    height: 50px;
+    font-size: 3vw;
+    text-align: center;
+    background-color: #80aba9;
+    border: 0px;
+  }
+  .siromaru{
+    color: white;
+  }
+  .kuromaru{
+    color:black;
+  }
+  .turn {
+    display: block;
+    width: 150px;
+    position: fixed;
+    top: 140px;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    background-color: #80aba9;
+  }
+  .next {
+    display: block;
+    width: 100px;
+    position: fixed;
+    top: 350px;
+    background-color: #80aba9;
+    border-collapse: collapse;
+  }
+  .next td {
+    width: 50px;
+    height: 50px;
+    font-size: 3vw;
+    text-align: center;
+    border: 2px solid #2c4f54;
+  }
+  .pass {
+    display: block;
+    position: fixed;
+    top: 200px;
+    width: 150px;
+    height: 40px;
+    box-shadow: 3px 3px 3px black;
+    color: white;
+    background-color: #96514d;
+    border: 0px;
+    font-size: 1.7vw;
+  }
+  .reset {
+    display: block;
+    position: fixed;
+    top: 250px;
+    width: 150px;
+    height: 40px;
+    box-shadow: 3px 3px 3px black;
+    color: white;
+    background-color: #96514d;
+    border: 0px;
+    font-size: 1.7vw;
+  }
